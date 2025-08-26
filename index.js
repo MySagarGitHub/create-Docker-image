@@ -8,9 +8,13 @@ app.get('/', (req, res) => {
       employeename: 'John Doe'
     },
     {
-      id: 2,
-      employeename: 'Jane Smith'
-    } 
+      id: 3,
+      employeename: 'will Smith'
+    },
+    {
+      id: 4,
+      employeename: 'Dakota Johnson'
+    }  
   ]);
 });
 

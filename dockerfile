@@ -1,9 +1,11 @@
-FROM node:14
+FROM node:latest
 
-RUN npm install
-
+RUN npm install -g nodemon
+WORKDIR /app
 COPY . .
+
 
 EXPOSE 3000
 
-CMD ["node", "index.js"]
+CMD ["npm", "run", "dev"]
+
